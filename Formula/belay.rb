@@ -7,26 +7,26 @@
 class Belay < Formula
   desc "Durable, resumable orchestrator for autonomous coding agents"
   homepage "https://github.com/dhaam-ai/belay"
-  version "0.1.1"
+  version "0.1.2"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/dhaam-ai/belay/releases/download/v0.1.1/belay_0.1.1_darwin_arm64.tar.gz"
-      sha256 "ac4d7d0e5c974f16c6bf09f65446575d015f4a4573d66c161687119a7aa1c287"
+      url "https://github.com/dhaam-ai/belay/releases/download/v0.1.2/belay_0.1.2_darwin_arm64.tar.gz"
+      sha256 "daaa51c22ba57814637ea8f47920ded29cd569d96d0587c3a7646080378c755e"
     else
-      url "https://github.com/dhaam-ai/belay/releases/download/v0.1.1/belay_0.1.1_darwin_amd64.tar.gz"
-      sha256 "4d5bd0096adde5978f5169cb95c0c40a372f49ab34e69455e07ae20198b4baf4"
+      url "https://github.com/dhaam-ai/belay/releases/download/v0.1.2/belay_0.1.2_darwin_amd64.tar.gz"
+      sha256 "75d51f73cb5c80fd241cde71cf71e6339e8c5412db2ea779c9d0247c3947d2f1"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/dhaam-ai/belay/releases/download/v0.1.1/belay_0.1.1_linux_arm64.tar.gz"
-      sha256 "d2ad2deb86a26a033e64a1703530c3c811cda7bbea178fc11394b4f978d1c520"
+      url "https://github.com/dhaam-ai/belay/releases/download/v0.1.2/belay_0.1.2_linux_arm64.tar.gz"
+      sha256 "8c25c5916487856a23cac422962d9e86d390c08cc2593ab54e5381dcf04ddcdf"
     else
-      url "https://github.com/dhaam-ai/belay/releases/download/v0.1.1/belay_0.1.1_linux_amd64.tar.gz"
-      sha256 "25ccddfd6a25896e6f77de913d4871372c19b674324b5e0caac1718636ce07b8"
+      url "https://github.com/dhaam-ai/belay/releases/download/v0.1.2/belay_0.1.2_linux_amd64.tar.gz"
+      sha256 "0f0afdaf2633883c3fa42226a23d475c021008f44ebcb1f860423dd72ce1d54f"
     end
   end
 
